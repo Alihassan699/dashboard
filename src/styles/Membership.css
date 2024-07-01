@@ -1,0 +1,18 @@
+.max-w-md{
+  width: 50rem;
+}
+#btn{
+  width: 100px;
+}
+#btn:hover{
+  background-color: #536de2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+#btn1{
+  font-size: 30px;
+  margin-right: 20px;
+  font-weight: bolder;
+}

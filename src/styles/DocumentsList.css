@@ -1,0 +1,27 @@
+/* DocumentsList.css */
+.documents-list {
+    padding: 10px;
+  }
+  
+  .document {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .document-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  
+  .document-name {
+    display: inline-block;
+    vertical-align: top;
+  }
+  

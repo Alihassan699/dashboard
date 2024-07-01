@@ -1,0 +1,42 @@
+.user-profile {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 2%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .personal-information,.contact-information {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .personal-information p,.contact-information p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .contact-information {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+
+  

@@ -1,0 +1,142 @@
+.experts-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .experts-progress {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .expert-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expert-item:last-child {
+    border-bottom: none;
+  }
+  
+  .expert-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .expert-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .expert-progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .expert-progress-bar-fill {
+    width: 50%; /* adjust this value to show progress */
+    height: 100%;
+    background-color: #3b82f6;
+    border-radius: 10px;
+  }
+  
+  .experts-pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .experts-pagination span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .experts-pagination span.active {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  .experts-stats {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stat-card:last-child {
+    border-bottom: none;
+  }
+  
+  .stat-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .stat-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b82f6;
+  }
+  .progress-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: fit-content;
+}
+.progress-card  h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #555;
+}
+.progress-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem;
+}
